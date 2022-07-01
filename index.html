@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website | CodingLab</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/nachiket-lele-b27468189/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Nachiketlele"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Nachiket Lele</div>
+          <div class="text-three">Full Stack Developer</div>
+          <div class="text-four">From Sirsi Karnataka</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="IMG1.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Coding Is My Passion</div>
+            <p>
+              Hello World! I'm Nachiket Lele, a Full-Stack Web Developer, based
+              out in Sirsi, Karnataka. From Mechanical Engg to lines of code on
+              a web page, I love combining the worlds of logic and creative
+              design to make eye- catching, accessible, and user friendly
+              websites and applications. I am excited to make the leap and
+              continue refining my skills with the right company.
+            </p>
+            <div class="button">
+              <button>
+                <a
+                  href="https://drive.google.com/file/d/1hDfRcpyMYom3j5R24_zaYWQO3pbUZlK0/view?usp=sharing"
+                >
+                  Download CV</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <!-- <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur
+              reiciendis ut praesentium minima ad, quos, officia! Illo libero,
+              et, distinctio repellat sed nesciunt est modi quaerat placeat.
+              Quod molestiae, alias?
+            </p>
+            <div class="experience">
+              <div class="num">10</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div> -->
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">React</div>
+              <div class="per">65%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Redux</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Chakra-UI</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Material-UI</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="boxes">
+          <div class="box" id="box">
+            <div class="icon">
+              <!-- <i class="fas fa-desktop"></i> -->
+              <img class="imgs" src="revvimage.png" alt="" />
+            </div>
+            <div class="topic">Revv.co Clone</div>
+            <p>
+              Revv.co is a popular choice for self-drive car rental services,
+              and it also offers car subcription in India over 22 cities, With
+              over 5 Lac+ happy customers
+              A collaborative project built by a team of 4, executed in 5 days.
+            </p>
+            <div class="media-icons" id="linkss">
+              <a href="https://nvfarhan.github.io/Revv.co.in/index.html"
+                > <i id="i" class="fab fa-github"></i></a>
+              <a href="https://incredible-custard-b1be29.netlify.app/"
+                ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
+              ></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <!-- <i class="fas fa-desktop"></i> -->
+              <img class="imgs" src="sugarimage.png" alt="" />
+            </div>
+            <div class="topic">SugarCosmetics Clone</div>
+            <p>
+             
+              SUGAR Cosmetics, a cult-favourite amongst millennials, is one of the fastest-growing premium beauty brands in India. With its clutter-breaking persona, signature low-poly packaging and chart-topping products, SUGAR is the makeup of choice for bold.
+            </p>
+            <div class="media-icons" id="linkss">
+              <a href="https://github.com/Nachiketlele/Sugar"
+                > <i id="i" class="fab fa-github"></i></a>
+              <a href="https://sugars.netlify.app"
+                ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
+              ></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <img class="imgs" src="Nordstromimage.png" alt="" />
+            </div>
+            <div class="topic">NordStrom clone</div>
+            <p>
+              Nordstrom, Inc. is an American luxury department store chain headquartered in Seattle, Washington and founded by John W. Nordstrom and Carl F. Wallin in 1901. The original Wallin & Nordstrom store operated exclusively as a shoe store.
+            </p>
+            <div class="media-icons" id="linkss">
+              <a href="https://github.com/Laxmi16101995/Unit3_NordStrom"
+                > <i id="i" class="fab fa-github"></i></a>
+              <a href="https://stupendous-sfogliatella-98faf6.netlify.app/"
+                ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="media-icons">
+            <a href="https://www.linkedin.com/in/nachiket-lele-b27468189/"><i id="i" class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Nachiketlele"><i id="i" class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/nachiket.naccha/"><i id="i" class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/the14th_letter/"><i id="i" class="fab fa-instagram"></i></a>
+      </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span
+          > © 2020 copyright all right reserved</span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
